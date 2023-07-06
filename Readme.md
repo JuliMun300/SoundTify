@@ -7,7 +7,7 @@ Reproductor de musica basado en la famosa aplicacion Spotify muy basica
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install Spotify
+pip install Soundtify
 ```
 
 ## License
