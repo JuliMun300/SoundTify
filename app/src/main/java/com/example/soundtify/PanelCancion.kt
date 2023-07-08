@@ -106,7 +106,7 @@ class PanelCancion : AppCompatActivity() {
     ) {
         val pandingIntent = TaskStackBuilder.create(this).run {
             addNextIntentWithParentStack(intent)
-            getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
+            getPendingIntent(0, PendingIntent.FLAG_IMMUTABLE)
         }
 
         val notification = NotificationCompat.Builder(this, "1")
