@@ -149,5 +149,7 @@ class PanelCancion : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
+        val notificationManager = NotificationManagerCompat.from(this)
+        CancelNotification(notificationManager)
     }
 }
